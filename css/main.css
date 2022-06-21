@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+
+body {
+    background: url(../img/bg.png);
+    height: 2290px;
+}
+
+footer {
+    padding: 20px;
+    color: gray;
+    text-align: center;
+    position: absolute;
+    top: 800px;
+    left: 800px;
+}
+
+.logo-item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+}
+
+#block-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    display: block;
+    text-align: center;
+}
+
+#parent {
+    position: relative;
+}
+
+.arrow-item {
+    width: 50px;
+    margin: -10px;
+
+    transition: transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.h1-text {
+    text-align: center;
+    margin-top: 260px;
+    font-family: 'Alef', 'sans-serif';
+    color: white;
+    font-size: 70px
+}
+
+@keyframes scaling-up {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes scaling-down {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.arrow-item:hover {
+    cursor: pointer;
+
+    transform: scale(1.1);
+}
+
+#header-text {
+    text-align: center;
+    font-size: 41.38px;
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#header-text-2 {
+    font-size: 49.06px;
+    font-family: 'Alef', sans-serif;
+    color: white;
+}
+
+#h2-text-correct {
+    margin-top: 170px;
+}
+
+.p-text-1 {
+    text-align: center;
+    font-size: 40.43px;
+    font-family: 'Alef', 'sans-serif';
+    color: white;
+}
+
+.placeholder-1 {
+    width: 550px;
+    height: 300px;
+    background-color: rgb(38, 38, 39);
+    float: left;
+    
+    margin: 39px;
+}
+
+.placeholder-image {
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+
+    transition: transform 0.5s;
+}
+
+.placeholder-image:hover {
+    transform: scale(1.1);
+}
